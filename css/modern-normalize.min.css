@@ -1,0 +1,85 @@
+/* Базовий сброс стилів */
+
+/* Загальні сброси */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* Загальні налаштування */
+body {
+    line-height: 1;
+    font-family: Arial, sans-serif;
+}
+
+/* Зовнішній вид списків */
+ul, ol {
+    list-style: none;
+}
+
+/* Посилання без стилів */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Зображення без обрамлення */
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Таблиці без стилів */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Текстові елементи необхідно перезаписати за потреби */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Додаткові сброси, за потреби */
+/* ... */
+address { display: initial; font-style: normal;}
+/* Сброс стилів для зображень */
+img {
+    display: block; /* Змінюємо властивість display на inline-block */
+    max-width: 100%; /* Забезпечуємо, щоб зображення не виходили за межі контейнера */
+    height: auto; /* Автоматично розраховуємо висоту для збереження співвідношення сторін */
+    border: 0; /* Забираємо границю */
+    margin: 0; /* Знімаємо зовнішні відступи */
+    padding: 0; /* Знімаємо внутрішні відступи */
+}
+
+/* Сброс стилів для input */
+input {
+    padding: 5px; /* Додаткові відступи всередині input */
+    border: 1px solid #ccc; /* Границя */
+    border-radius: 4px; /* Закруглені кути */
+    font-size: 14px; /* Розмір шрифту */
+    outline: none; /* Забираємо контур при активізації */
+    box-shadow: none; /* Забираємо тінь */
+    background-color: white; /* Колір фону */
+    color: #333; /* Колір тексту */
+    margin: 0; /* Знімаємо зовнішні відступи */
+}
+
+/* Відключення каретки на вказаних елементах */
+input[type="button"], textarea,
+button, a, img {
+    caret-color: transparent; /* Встановлюємо прозорий колір для каретки */
+}
+
+.link {
+    text-decoration: none;
+}
+  
