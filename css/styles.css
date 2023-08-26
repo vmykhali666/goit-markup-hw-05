@@ -447,6 +447,7 @@ address {
   font-size: 16px;
   letter-spacing: 0.32px;
   margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .team-persone_social {
@@ -482,10 +483,6 @@ address {
 
 .header-address_link {
     color: var(--light-font-color);
-}
-
-.header-navigation_a a {
-    color: var(--main-font-color);
 }
 
 .customers-section {
@@ -563,10 +560,6 @@ address {
   fill: var(--link-header-color);
 }
 
-.header-navigation_a {
-  color: #404bbf;
-}
-
 /* modal window */
 .is-hidden {
   opacity: 0;
@@ -589,6 +582,7 @@ address {
   top: 50%;
   left: 50%;
   width: 408px;
+  padding: 72px 24px 24px 24px;
   min-height: 584px;
   transform: translate(-50%, -50%);
   background-color: var(--modal-window-background);
@@ -634,5 +628,12 @@ address {
   fill: var(--white-color);
 }
 
-
+.modal-main-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
+}
 /* /modal window */
