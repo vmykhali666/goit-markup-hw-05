@@ -10,6 +10,7 @@
   --link-header-color: #404bbf;
   --container-padding: 156px;
   --modal-window-background: #fcfcfc;
+  --modal-input-color: #8e8f99;
 }
 
 .visually-hidden {
@@ -636,4 +637,52 @@ address {
   letter-spacing: 0.02em;
   color: var(--main-font-color);
 }
+
+.modal-main-text {
+  margin-bottom: 16px;
+}
+
+.modal-input-wrapper {
+  margin-bottom: 8px;
+}
+
+.modal-input-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--modal-input-color);
+  margin-bottom: 4px;
+}
+
+.modal-input-container {
+  position: relative;
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus {
+  border-color: #4D5AE5;
+}
+
+.modal-input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input-icon:focus {
+  fill: #4D5AE5;
+}
+
 /* /modal window */
