@@ -674,15 +674,15 @@ address {
   border-color: #4D5AE5;
 }
 
-#user-name:focus .modal-input-icon-name {
+#user-name:focus .modal-input-icon-name use {
   fill: #4D5AE5;
 }
 
-#user-phone:focus .modal-input-icon-phone {
+#user-phone:focus .modal-input-icon-phone use {
   fill: #4D5AE5;
 }
 
-#user-email:focus .modal-input-icon-email {
+#user-email:focus .modal-input-icon-email use {
   fill: #4D5AE5;
 }
 
